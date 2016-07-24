@@ -1,9 +1,44 @@
-Cite and summarize here relevant and significant literature (dissertations, theses, journals, patents, notable conference papers) to prove that no one has done your work yet. 
+\section{ Mobile Robots}
+\subsection{ Operation of Mobile Robot }
+	
+	According to Pandey, Kumar, Pandey, and Parhi (2016), navigation and obstacle avoidance are the most important task for any mobile robot. Using the Adaptive Neuro-Fuzzy Interference System (ANFIS) controller, it uses several transducers to detects obstacles in an unknown environment. The ANFIS is product of by Takagi-Sugeno fuzzy interference system and Artificial Neural Networks (ANN). Similarly, the objective of this thesis is to create a firefighting wheeled mobile robot that will be able to navigate through foggy places. 
+
+\subsection{ Mobile Robot Controlled with Android Device}
+
+	Basing from an article by Pahuja and Kumar (2014), controlling the mobile robot was done using the HC serial bluetooth. In this article, the HC-06 bluetooth module was used together with the 8051 microcontroller. The flow of the data is from the bluetooth module, which will be sent to the decoder. Then, it goes straight to the microcontroller, which dictates a different data depending on the buttons pressed by the master module. It will dictate how the motors should operate based on the data received by the bluetooth module.
+
+\subsection{ Mobile Robot Navigation}
+
+	The mobile robot can be implemented using a microcontroller, the Programmable Interface Controller (PIC). According to Kendre, Mulmule, and Shinde (2010), the PIC is economical and has a high computational performance. Based from the article, the mobile robot was able to navigate through a simple lined map using a heuristic search algorithm. The mobile robot is capable of mapping the layout of the area and can store the information. It also has the capability of sharing the information with other mobile robots using an ASK transmitter and ASK receiver. In its first run, it maps out the area and during its succeeding run, the mobile robot knows the right path. This will be of significant help when creating a robot that has the capability of traversing the room.
+According to Thrun (1997), there are two types of indoor mapping: the grid-based and topological. The grid-based map is the layout of the room. The topological map is the pathway map. The grid-based produces more accurate metric maps but are complex and iefficient, especially in large rooms.  The topological is more efficient but is less accurate compared to the output of a grid-based mapping.
+
+\section{ Battery Management System}
+
+	Modern battery operated robots performs very complicated tasks because more and more applications are added unto its system which demands more power from its input. Some of the new applications are cameras, navigation, bluetooth, mapping and etc. These robots cannot tell if the battery used is enough or not when an additional component is added onto it which may cause its operation to breakdown. Even worse, batteries may be used incorrectly due to lack of knowledge which may reduce or damage its performance. According to Cai, Du, and Liu, power supply is the basic problem when it comes to adding applications to a robot. With these kind of problems, robots are being unacceptable to security or critical applications. According to Lucas, Codrea, Hirth, Gutierrez, and Dressler, these problems can be avoided with proper knowledge and proper battery management system. A robot battery management and monitoring system is an improved interface between the battery and the robot. It monitors the battery state and controls the charging process of the battery.
+
+	According to Lucas, Codrea, Hirth, Gutierrez, and Dressler, It is common for robots to have lead-acid batteries as their supply. These batteries are accepted by the users even though these cells have a low power-density because it is cheap and powerful. The RoBM2 board is an adaptable platform for implementing battery supervision policies, even without the smart power supplies. Smart power system is a complete power system that has a multiple specification for portable devices. Smart battery, smart battery charger and a SMBus Host should always be present in a smart power system. The system management bus or SMBus is a two-wire bus transporting data between devices.
+	
+ \section{Sensor}     
+	
+\subsection{Ultrasonic Sensor}
+    
+	In order for the mobile robot to move autonomously, it needs distance measuring sensors to determine the presence of an obstacle in front of it. Ultrasonic sensors are largely used for this application due to its relatively high reliance and low cost. According to Vaduva (2013), through the use of the triangulation method, the ability of the sensors to detect an object would increase in efficiency. Using a single ultrasonic sensor would only detect the presence of an object. However, using two ultrasonic sensors would allow a two dimensional detection of an object. It will not only calculate the distance, but the angle at which the obstacle is facing the sensor as well. There are some disadvantages in using the ultrasonic sensor. Errors usually happen with transparent or shiny objects. 
+
+\subsection{ Flame Sensor}
+  
+	In a study made by Punuganti, Srinivas, Savanoor, and Shree (2014) in designing a fire-fighting robot, they used a generic infrared fire sensor to detect flames. In the occurrence of a fire, distinct changes in the IR region are exhibited by the flame. The fire sensor module used weighs a total of five grams and has a maximum range of one meter. An LED is attached to the module to indicate whether the sensor detected a fire or not. To cover a wider field of view, the researchers used four IR fire sensors, one on each side of robot. 
+
+	Another type of fire sensor is the ultraviolet fire sensor. According to Bharathi and Prasad (2013), a flame from a tiny candle can be detected by the UV fire sensor five meters away. The UV sensor in particular is called the Hamamatsu UV TRON Flame Detector. It is more reliable and accurate than the IR sensor, but the price is much more expensive.
+
+\subsection{Smoke Sensor}
+
+	According to Luis, Galan, and Espigado (2015), the use of smoke sensors is the most popular method in detecting fires due to its quick response and low cost. However, they stated that using only one sensor to detect fire can be unreliable. To improve the accuracy of the smoke alarm, they added a few more relevant sensors. The smoke sensor triggers when smoke particles enter into the chamber of the component and activates a photosensitive device when light bounces off from the smoke particles. A carbon monoxide sensor is added to the device to measure the level of carbon monoxide in the air. The main function of this sensor is differentiating actual fire smoke from steam or dust. This added component increased the reliability of the smoke detector significantly. 
+
+	Another way to detect smoke is through image processing. According to Luo, Yan, Wu, and Zheng (2015), condensing a video can significantly increase the efficiency in detecting the smoke through special characteristics exhibited by the smoke trajectories. There are many advantages to using a video camera over a sensor. Not only is it cheaper, it can be applied to a wider angle and longer range. This is especially effective for forest fires. There are five unique smoke trajectory characteristics that can help in detecting the smoke and these are the right-leaning line of the velocity-to-time trajectory, the smooth streamline, the low frequency of the smoke clique, the fixed source of the smoke, and the vertical-horizontal ratio. Since smoke always appear when there is fire, using this method can make for an excellent early warning system.
 
 
-\Blindtext
 
-\section{Summary}
+%%\section{Summary}
 
 
 
